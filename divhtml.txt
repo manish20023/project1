@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head><title>Myweb</title></head>
+<style>
+</style>
+<body>
+<p><b>This is a bold Text</b> </p>
+<h1>SubScript : H<sub>2</sub>O</h1>
+<h1>Superscript : th<sup>10</sup></h1>
+<h1>Entity :</h1>
+<p>
+<font color="red" size="7">
+&lt;Back&gt; &clubs;&diams;	&amp; &apos;&phone;
+&spades;&hearts;&#8377;
+</font>
+</p>
+
+
+</body>
+
+</html>
