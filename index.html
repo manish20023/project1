@@ -7,24 +7,44 @@
 <style>
 
 </style>
-<body >
+<body bgColor ="yellow">
+  <h1>https://manish20023.github.io/project1/</h1>
+  <hr/>
+  <h2>Welcome to My Web Git hub website</h2>
+<hr/>
+  <h2> My Colorset in JavaScript..... </h2>
+  </h2>
+<h1 style="color:white;text-align:center;">Color pallate in JS</h1>
+<div style="width:400px;height:auto;margin:auto;background:black;">
 
-<a href="index.html">Home </a>
-<a href="mypracticepages.html">Practice Pages</a>
+
+<script>
+for(var i=1;i<=80;i++)
+{
+r= Math.round(Math.random()*255)
+g= Math.round(Math.random()*255)
+b= Math.round(Math.random()*255)
+mycolor="rgb("+r+","+g+","+b+")"
+document.write("<button style='background:"+mycolor+"' class='bstyle' onclick='setcolor(this)'></button>")
+ function setcolor(c)
+      {
+     //alert(c.style.background)
+     document.body.style.background=c.style.background
+   }
+
+}
+
+function gencolor()
+{
+location.reload()
+}
+document.title="no Error"
 
 
-<ol  style="box-shadow:10px 10px 10px gray;width:100px;padding:0px;list-style:none;color:green;font-size:20px;background:yellow">
-<li>India </li>
-<li>USA </li>
-<li>UK </li>
-<li>Australlia </li>
-</ol>
-<ol  style="list-style-Image:url(images/green.png)">
-<li>India </li>
-<li>USA </li>
-<li>UK </li>
-<li>Australlia </li>
-</ol>
+
+</script>
+
+  
 
 </body>
 </html>
